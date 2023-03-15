@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Background Color Change</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<div class="container">
+		<h1 id="title-text">Background <br/> Generator</h1>
+		<div class="color-pickers">
+			<div class="column">
+				<label for="color1">Chọn màu cho bên trái</label>
+				<input type="color" id="color1" value="#ffff00"><br>
+			</div>
+			<div class="column">
+				<label for="color2">Chọn màu cho bên phải</label>
+				<input type="color" id="color2" value="#ff0000"><br>
+			</div>
+		</div>
+		<button id="randomButton">Random</button>
+		<button id="resetButton">Reset to default</button>
+		<p>This is the CSS code of the Background</p>
+		<div class="result">
+		   <input type="text" id="gradientText" value="" readonly>
+		 </div>
+	</div>
+	<script src="main.js"></script>
+</body>
+</html>
